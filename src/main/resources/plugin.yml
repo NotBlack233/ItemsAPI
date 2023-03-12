@@ -1,0 +1,16 @@
+name: ItemsAPI
+version: '${project.version}'
+main: me.not_black.itemsapi.ItemsAPI
+api-version: 1.16
+commands:
+  itemsapi:
+    description: Main command.
+    usage: /itemsapi <args>
+    aliases: [iapi]
+permissions:
+  itemsapi.use:
+    default: op
+  itemsapi.reload:
+    default: op
+  itemsapi.import:
+    default: op
