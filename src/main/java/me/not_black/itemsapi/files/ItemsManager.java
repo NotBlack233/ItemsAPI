@@ -2,7 +2,6 @@ package me.not_black.itemsapi.files;
 
 import me.not_black.itemsapi.ItemsAPI;
 import me.not_black.itemsapi.logging.IALogger;
-import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
