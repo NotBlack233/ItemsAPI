@@ -2,7 +2,6 @@ package me.not_black.itemsapi.logging;
 
 import org.bukkit.ChatColor;
 
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class IALogger {

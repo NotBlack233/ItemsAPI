@@ -6,7 +6,7 @@
 
     <groupId>me.not_black</groupId>
     <artifactId>ItemsAPI</artifactId>
-    <version>0.1</version>
+    <version>0.1-rc1</version>
     <packaging>jar</packaging>
 
     <name>ItemsAPI</name>

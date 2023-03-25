@@ -1,7 +1,6 @@
 package me.not_black.itemsapi;
 
 import org.bukkit.inventory.ItemStack;
-import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
 
 public final class MainAPI {
