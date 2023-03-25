@@ -2,6 +2,7 @@ package me.not_black.itemsapi.commands;
 
 import me.not_black.itemsapi.ItemsAPI;
 import me.not_black.itemsapi.MainAPI;
+import me.not_black.itemsapi.logging.IALogger;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -15,6 +16,7 @@ import java.util.List;
 
 public final class MainCommand implements TabExecutor {
 
+    private static final IALogger logger = new IALogger(ItemsAPI.getDefaultLogger(), "Command");
     private final String NO_PERMISSION = ChatColor.RED + "This command requires permission: " + ChatColor.RESET;
 
     private final List<String> BOTH = new ArrayList<String>() {{

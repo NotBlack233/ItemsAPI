@@ -15,7 +15,7 @@ public final class ItemsAPI extends JavaPlugin {
 
     private static Plugin plugin;
     private static Logger defaultLogger;
-    private IALogger logger;
+    private static IALogger logger;
     static ItemsManager itemsManager;
 
     @Override
@@ -54,6 +54,8 @@ public final class ItemsAPI extends JavaPlugin {
     }
 
     public static void reload() {
-        // TODO reload
+        boolean r = itemsManager.reload();
+        if (r) logger.info("Plugin reloaded.");
+        else logger.warning("Failed to reload!");
     }
 }
