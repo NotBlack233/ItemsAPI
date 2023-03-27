@@ -22,6 +22,12 @@ public final class ItemsAPI extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         plugin = this;
+
+        if(!this.getDataFolder().exists()) {
+            logger.info("Plugin folder does not exist, creating...");
+            this.getDataFolder().mkdir();
+        }
+
         defaultLogger = this.getLogger();
         logger = new IALogger(defaultLogger, "Main");
         itemsManager = new ItemsManager();

@@ -54,7 +54,6 @@ public final class ItemsManager {
     }
 
     private int loadFile(@NotNull File file) {
-        items.clear();
         int cnt = 0;
         YamlConfiguration yamlConfiguration = YamlConfiguration.loadConfiguration(file);
         for (String key : yamlConfiguration.getKeys(false)) {

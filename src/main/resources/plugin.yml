@@ -1,5 +1,5 @@
 name: ItemsAPI
-version: '0.1-rc1'
+version: '0.1'
 main: me.not_black.itemsapi.ItemsAPI
 api-version: 1.16
 commands:
